@@ -12,7 +12,7 @@ $("[href*='tel:']").click(function(e) {
   }   
 
 // Comment this if it's not analytics.js
-ga('send', {
+window.ga('send', {
   hitType: 'event',
   eventCategory: eventCategory,
   eventAction: 'Click',
