@@ -1,3 +1,4 @@
+jQuery(function( $ ){
 $("[href*='tel:']").click(function(e) {
 
   e.preventDefault();
@@ -22,4 +23,5 @@ setTimeout(function() {
 	window.location = href;
 }, 500);
 
+});
 });
